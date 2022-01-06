@@ -39,9 +39,12 @@ passport.deserializeUser(User.deserializeUser());
 
 
 app.get("/",function(req,res){
-    res.render("signup");
+    res.render("index");
 });
 
+// app.get("/home",function(req,res){
+//     res.render("index");
+// });
 
 function isLoggedIn(req, res, next){
     if(req.isAuthenticated()){

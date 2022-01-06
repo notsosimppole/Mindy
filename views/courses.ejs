@@ -7,58 +7,63 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
 
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
      <!-- custom stylesheet -->
      <link rel="stylesheet" href="/css/custom.css">
+     <link href="/assets/css/styles.css" rel="stylesheet">
+     <script src="/assets/js/main.js"></script>
+     
 
     <title>Our Courses</title>
   </head>
 
 
   <body class="bg-light">
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="index.html"><img src="images/logo-coral.svg" class="mr-2" width="100px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto container-fluid">
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-list-ul"></i>
-                        Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container">
+          <div class="header-container d-flex align-items-center justify-content-between">
+            <div class="logo">
+              <h1 class="text-light"><a href="index.html"><span>MINDY</span></a></h1>
+              <!--<a href="index.html"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+    
+            <nav id="navbar" class="navbar">
+              <ul>
+                <li><a class="nav-link scrollto active" href="/#home-page">Home</a></li>
+                <li><a class="nav-link scrollto" href="/read-more">About</a></li>
+                <li><a class="nav-link scrollto" href="#services">Consult</a></li>
+                <li><a class="nav-link scrollto " href="#portfolio">Blogs/Journals</a></li>
+                <li><a class="nav-link scrollto" href="#team">Contact</a></li>
+                <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li class="dropdown"><a href="#"><span>Mind Games</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Adults</a></li>
+                        <li><a href="#">Middle Aged</a></li>
+                        <li><a href="#">Senior citizens</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Mood Tracker</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Test your fitness</a></li>
+                  </ul>
                 </li>
-
-                <li class="nav-item col-8">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control form-control-lg col-9 bg-light border-0 rounded-radius-left" type="search" placeholder="Search for Courses" aria-label="Search">
-                        <button class="btn btn-lg btn-light col-2 my-2 my-sm-0 ml-0 rounded-radius-right" type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </li>
-            </ul>
-
-            <a class="btn btn-light mx-2" href="#" data-toggle="popover" data-trigger="focus" data-content="Get your team access to Our Courses's top 2,500 courses anytime, anywhere" title="Try Our Courses for Business" data-placement="bottom">Our Courses for Business</a>
-            <a class="btn btn-light mx-2" href="#">Become an Instructor</a>
-            <a class="btn btn-light mx-2 rounded-circle" href="#"><i class="fa fa-shopping-cart"></i></a>
-            <a class="btn btn-success mx-1" href="#">Login</a>
-            <a class="btn btn-danger mx-1" href="#">Sign Up</a>
-            
-
-           
+                <li><a class="getstarted scrollto" href="/api/users/login">Login</a></li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+    
+          </div><!-- End Header Container -->
         </div>
-    </nav> -->
+        <br>
+      </header><!-- End Header -->
 
     <!-- Body starts here -->
     <div class="jumbotron mb-0 bg-banner" style="height:500px; padding-top:150px">
