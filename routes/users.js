@@ -16,10 +16,10 @@ router.post("/register", function(req, res){
 User.register(new User({username:req.body.username}),req.body.password, function(err, user){
    if(err){
         console.log(err);
-        return res.render('register');
+        return res.render('signup');
     } //user stragety
     passport.authenticate("local")(req, res, function(){
-        res.redirect("/secret"); //once the user sign up
+        res.redirect("/courses"); //once the user sign up
    }); 
 });
 });
@@ -33,7 +33,7 @@ res.render("login");
 
 // middleware
 router.post("/login", passport.authenticate("local",{
-successRedirect:"/secret",
+successRedirect:"/courses",
 failureRedirect:"/login"
 }),function(req, res){
 res.send("User is "+ req.user.id);

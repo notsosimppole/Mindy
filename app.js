@@ -18,6 +18,8 @@ mongoose.connect(process.env.MONGO_URL, {
   useFindAndModify: false
 });
 
+app.use(express.static(__dirname + '/public'));
+
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(require("express-session")({
@@ -48,8 +50,8 @@ function isLoggedIn(req, res, next){
     res.redirect("/api/users/login");
 }
 
-app.get("/secret",isLoggedIn, function(req, res){
-    res.render("secret");
+app.get("/courses",isLoggedIn, function(req, res){
+    res.render("courses.ejs");
 });
 
 /// Auth Routes
