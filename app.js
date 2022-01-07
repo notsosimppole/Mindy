@@ -62,7 +62,7 @@ app.get("/games", function(req, res){
 });
 
 app.get("/silk", function(req, res){
-    res.render("weavesilk.ejs");
+    res.render("games/weavesilk.ejs");
 });
 
 /// Auth Routes
