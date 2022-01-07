@@ -69,6 +69,11 @@ app.get("/noisless", function(req, res){
     res.render("games/noisless.ejs");
 });
 
+app.get("/quiz", function(req, res){
+    res.render("games/quiz.ejs");
+});
+
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
