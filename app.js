@@ -57,6 +57,14 @@ app.get("/courses",isLoggedIn, function(req, res){
     res.render("courses.ejs");
 });
 
+app.get("/games", function(req, res){
+    res.render("games.ejs");
+});
+
+app.get("/silk", function(req, res){
+    res.render("weavesilk.ejs");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
