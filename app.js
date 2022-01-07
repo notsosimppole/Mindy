@@ -73,6 +73,9 @@ app.get("/quiz", function(req, res){
     res.render("games/quiz.ejs");
 });
 
+app.get("/sinuous", function(req, res){
+    res.render("games/sinuous.ejs");
+});
 
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
