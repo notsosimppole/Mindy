@@ -65,6 +65,10 @@ app.get("/silk", function(req, res){
     res.render("games/weavesilk.ejs");
 });
 
+app.get("/noisless", function(req, res){
+    res.render("games/noisless.ejs");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
