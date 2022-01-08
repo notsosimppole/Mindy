@@ -39,9 +39,13 @@ passport.deserializeUser(User.deserializeUser());
 
 
 app.get("/",function(req,res){
-    res.render("indexKIDS");
+    res.render("homepage");
 });
 
+
+// app.get("/",function(req,res){
+//     res.render("indexKIDS");
+// });
 // app.get("/home",function(req,res){
 //     res.render("index");
 // });
