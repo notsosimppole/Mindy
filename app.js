@@ -77,9 +77,6 @@ app.get("/resources", function(req, res){
     res.render("resources.ejs");
 });
 
-app.get("/homepage", function(req, res){
-    res.render("homepage.ejs");
-});
 
 app.get("/games", function(req, res){
     res.render("games.ejs");
