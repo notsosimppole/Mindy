@@ -39,7 +39,7 @@ passport.deserializeUser(User.deserializeUser());
 
 
 app.get("/",function(req,res){
-    res.render("index");
+    res.render("indexKIDS");
 });
 
 // app.get("/home",function(req,res){
@@ -55,6 +55,10 @@ function isLoggedIn(req, res, next){
 
 app.get("/courses", function(req, res){
     res.render("courses.ejs");
+});
+
+app.get("/resources", function(req, res){
+    res.render("resources.ejs");
 });
 
 app.get("/homepage", function(req, res){
