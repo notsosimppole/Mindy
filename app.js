@@ -132,6 +132,18 @@ app.get("/mood", function(req, res){
     res.render("moodTracker");
 });
 
+app.get("/therapyKids", function(req, res){
+    res.render("therapists/kidstherapy.ejs");
+});
+app.get("/therapyAdults", function(req, res){
+    res.render("therapists/therapyadults.ejs");
+});
+app.get("/therapymid", function(req, res){
+    res.render("therapists/therapymid.ejs");
+});
+app.get("/therapyold", function(req, res){
+    res.render("therapists/therapyold.ejs");
+});
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
