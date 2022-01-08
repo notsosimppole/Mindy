@@ -42,10 +42,9 @@ app.get("/",function(req,res){
     res.render("homepage");
 });
 
-
-// app.get("/",function(req,res){
-//     res.render("indexKIDS");
-// });
+app.get("/kids",function(req,res){
+    res.render("indexKIDS");
+});
 // app.get("/home",function(req,res){
 //     res.render("index");
 // });
