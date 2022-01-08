@@ -69,12 +69,24 @@ app.get("/noisless", function(req, res){
     res.render("games/noisless.ejs");
 });
 
+app.get("/arrange", function(req, res){
+    res.render("games/arrange.ejs");
+});
+
+app.get("/memory", function(req, res){
+    res.render("games/memory.ejs");
+});
+
 app.get("/quiz", function(req, res){
     res.render("games/quiz.ejs");
 });
 
 app.get("/sinuous", function(req, res){
     res.render("games/sinuous.ejs");
+});
+
+app.get("/gamesAdults", function(req, res){
+    res.render("gamesAdults.ejs");
 });
 
 /// Auth Routes
