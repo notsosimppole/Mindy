@@ -57,6 +57,10 @@ app.get("/courses",isLoggedIn, function(req, res){
     res.render("courses.ejs");
 });
 
+app.get("/homepage", function(req, res){
+    res.render("homepage.ejs");
+});
+
 app.get("/games", function(req, res){
     res.render("games.ejs");
 });
