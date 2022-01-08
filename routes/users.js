@@ -11,6 +11,7 @@ passportLocalMongoose   = require("passport-local-mongoose");
 var app = express();
 const router = express.Router();
 
+
 //handling user sign up
 router.post("/register", function(req, res){
 User.register(new User({username:req.body.username}),req.body.password, function(err, user){
@@ -29,6 +30,11 @@ User.register(new User({username:req.body.username}),req.body.password, function
 router.get("/login", function(req, res){
 res.render("login");
 
+});
+
+router.get("/register", function(req, res){
+    res.render("signup");
+    
 });
 
 // middleware

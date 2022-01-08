@@ -6,7 +6,8 @@ var UserSchema = new mongoose.Schema({
     password:String,
     moodtracker:Object, // {notes, emogi, thoughts}
     games:Object, // {}
-    age: Number
+    age: Number,
+    gender: String
 });
 
 UserSchema.plugin(passportLocalMongoose);
