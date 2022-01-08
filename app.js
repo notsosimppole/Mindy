@@ -77,6 +77,10 @@ app.get("/memory", function(req, res){
     res.render("games/memory.ejs");
 });
 
+app.get("/leftright", function(req, res){
+    res.render("games/leftright.ejs");
+});
+
 app.get("/quiz", function(req, res){
     res.render("games/quiz.ejs");
 });
