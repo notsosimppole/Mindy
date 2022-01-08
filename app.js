@@ -46,6 +46,10 @@ app.get("/",function(req,res){
 //     res.render("index");
 // });
 
+app.get("/ADULTS",function(req,res){
+    res.render("indexADULTS");
+});
+
 function isLoggedIn(req, res, next){
     if(req.isAuthenticated()){
         return next();
