@@ -39,12 +39,16 @@ passport.deserializeUser(User.deserializeUser());
 
 
 app.get("/",function(req,res){
-    res.render("index");
+    res.render("indexKIDS");
 });
 
 // app.get("/home",function(req,res){
 //     res.render("index");
 // });
+
+app.get("/adults",function(req,res){
+    res.render("indexADULTS");
+});
 
 function isLoggedIn(req, res, next){
     if(req.isAuthenticated()){
@@ -53,8 +57,12 @@ function isLoggedIn(req, res, next){
     res.redirect("/api/users/login");
 }
 
-app.get("/courses",isLoggedIn, function(req, res){
+app.get("/courses", function(req, res){
     res.render("courses.ejs");
+});
+
+app.get("/resources", function(req, res){
+    res.render("resources.ejs");
 });
 
 app.get("/homepage", function(req, res){
