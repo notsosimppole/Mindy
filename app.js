@@ -111,8 +111,15 @@ app.get("/gamesAdults", function(req, res){
     res.render("gamesAdults.ejs");
 });
 
+app.get("/mood", function(req, res){
+    res.render("moodTracker");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
+
+
+
 
 
 app.listen(3000, function(){
