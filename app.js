@@ -57,7 +57,7 @@ function isLoggedIn(req, res, next){
     res.redirect("/api/users/login");
 }
 
-app.get("/courses", function(req, res){
+app.get("/courses", isLoggedIn, function(req, res){
     res.render("courses.ejs");
 });
 
