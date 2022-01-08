@@ -57,12 +57,58 @@ app.get("/courses",isLoggedIn, function(req, res){
     res.render("courses.ejs");
 });
 
+app.get("/homepage", function(req, res){
+    res.render("homepage.ejs");
+});
+
 app.get("/games", function(req, res){
     res.render("games.ejs");
 });
 
+app.get("/gamesmid", function(req, res){
+    res.render("gamesmid.ejs");
+});
+
 app.get("/silk", function(req, res){
     res.render("games/weavesilk.ejs");
+});
+
+app.get("/noisless", function(req, res){
+    res.render("games/noisless.ejs");
+});
+
+app.get("/arrange", function(req, res){
+    res.render("games/arrange.ejs");
+});
+
+app.get("/memory", function(req, res){
+    res.render("games/memory.ejs");
+});
+
+
+
+app.get("/leftright", function(req, res){
+    res.render("games/leftright.ejs");
+});
+
+app.get("/quiz", function(req, res){
+    res.render("games/quiz.ejs");
+});
+
+app.get("/sinuous", function(req, res){
+    res.render("games/sinuous.ejs");
+});
+
+app.get("/colors", function(req, res){
+    res.render("games/colors.ejs");
+});
+
+app.get("/chess", function(req, res){
+    res.render("games/chess.ejs");
+});
+
+app.get("/gamesAdults", function(req, res){
+    res.render("gamesAdults.ejs");
 });
 
 /// Auth Routes
