@@ -61,6 +61,10 @@ app.get("/games", function(req, res){
     res.render("games.ejs");
 });
 
+app.get("/gamesmid", function(req, res){
+    res.render("gamesmid.ejs");
+});
+
 app.get("/silk", function(req, res){
     res.render("games/weavesilk.ejs");
 });
@@ -87,6 +91,14 @@ app.get("/quiz", function(req, res){
 
 app.get("/sinuous", function(req, res){
     res.render("games/sinuous.ejs");
+});
+
+app.get("/colors", function(req, res){
+    res.render("games/colors.ejs");
+});
+
+app.get("/chess", function(req, res){
+    res.render("games/chess.ejs");
 });
 
 app.get("/gamesAdults", function(req, res){
