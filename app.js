@@ -53,6 +53,10 @@ app.get("/adults",function(req,res){
     res.render("indexADULTS");
 });
 
+app.get("/midaged",function(req,res){
+    res.render("indexMIDAGED");
+});
+
 function isLoggedIn(req, res, next){
     // console.log(req);
     if(req.isAuthenticated()){
