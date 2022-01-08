@@ -144,6 +144,11 @@ app.get("/therapymid", function(req, res){
 app.get("/therapyold", function(req, res){
     res.render("therapists/therapyold.ejs");
 });
+
+app.get("/meditation", function(req, res){
+    res.render("meditation.ejs");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
