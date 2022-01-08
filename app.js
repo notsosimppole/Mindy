@@ -57,6 +57,10 @@ app.get("/midaged",function(req,res){
     res.render("indexMIDAGED");
 });
 
+app.get("/old",function(req,res){
+    res.render("indexOLD");
+});
+
 function isLoggedIn(req, res, next){
     // console.log(req);
     if(req.isAuthenticated()){
