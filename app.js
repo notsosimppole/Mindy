@@ -149,6 +149,10 @@ app.get("/meditation", function(req, res){
     res.render("meditation.ejs");
 });
 
+app.get("/readkids", function(req, res){
+    res.render("kidsreadmore.ejs");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
