@@ -157,6 +157,11 @@ app.get("/readold", function(req, res){
     res.render("oldreadmore.ejs");
 });    
 
+app.get("/readmidaged", function(req, res){
+    res.render("midagedreadmore.ejs");
+});   
+
+
 app.get("/meditation", function(req, res){
     res.render("meditation/index");
 });
