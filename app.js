@@ -155,6 +155,7 @@ app.get("/readadults", function(req, res){
 
 app.get("/readold", function(req, res){
     res.render("oldreadmore.ejs");
+});    
 
 app.get("/meditation", function(req, res){
     res.render("meditation/index");
