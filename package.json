@@ -1,5 +1,5 @@
 {
-  "name": "chatapp",
+  "name": "mindy",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,14 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simarpreet7/chatapp.git"
+    "url": "git+https://github.com/qw-erty/mindy2.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simarpreet7/chatapp/issues"
-  },
-  "homepage": "https://github.com/simarpreet7/chatapp#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "chess.js": "^0.12.0",
