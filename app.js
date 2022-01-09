@@ -152,6 +152,9 @@ app.get("/therapyold", function(req, res){
 app.get("/readadults", function(req, res){
     res.render("adultsreadmore.ejs");
 });
+app.get("/readkids", function(req, res){
+    res.render("kidsreadmore.ejs");
+});
 
 app.get("/readold", function(req, res){
     res.render("oldreadmore.ejs");
