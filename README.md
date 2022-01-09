@@ -13,27 +13,40 @@ Mindy. is a non-profit movement empowering the awareness for mental health among
     - A small description to the organization Mindy. is mentioned on the page.
     - Additionally, there are two buttons that redirect you to two sections of the web project. Either of them bring in the NavBar.
     - A customized Logo has been created for Mindy. using "Canva" tools.
-2. Home Page(Learn More - Redirect)
+    - Contains options for different age groups, and shall redirect as per the selection.
+2. Home Page(Common Home Page)
     - This page is the section that gathers a collection of thoughts on Mental Health.
+    - Contains Multiple Sections under the page itself.
+3. Read More
     - It contains general expressions about Mental health, as well as blogs to the lower part of the page.
     - Contains a self-customized Scroll Bar.
     - NavBar appears on this page.
-3. About Us Page
+4. About Us Page
     - This page contains a short description of the initiative, as to why it was started and why it was necessary in a post-pandemic world, for sites like these to exist.
     - It is another page with an animated background, and NavBar appears here too.
-4. Contact Us Page
+5. Contact Us Section
     - Contains Images and Portfolios of all members in the Team.
     - Linked with GitHub, LinkedIn and Instagram of all Team Members.
     - Hover option on cursor proximity.
-5. Experience AR
-    - Augmented reality (AR) is an enhanced version of the real physical world that is achieved through the use of digital visual elements, sound, or other sensory stimuli delivered via technology. 
-    - It is a growing trend among companies involved in mobile computing and business applications in particular. Here you can achieve your mental peace, whilst learning more about the issues and complexities of our minds. Try Some relaxing AR's, that are provided on our page.
-    - There have been many researches recently which proves that natural things relaxes the human mind we have tried to use AR to give people experience of natural things like flower , trees and mountains.
-6. Consult a Doctor Page
-    - Redirect to a small quiz that is a part-diagnosis for mental-trauma like Symptoms.
-    - This quiz prompts you to book an appointment with a doctor, based on choice selection. 
-7. Login/Signup Page
-    - This is a common page for Signup/Login that is based from SAWO Labs API, that sends OTP to input email address.
+6. Meditation Mode
+    - A page curated for the users suffering from Anxiety and will help in prevention of Anxiety and panic attacks.
+7. Mind Games
+    - Lifestyle habits matter when it comes to brain health, and the rewards of increased mental stimulation can be seen in a very short space of time. 
+    - This is a collection of Mind Games for users of different age groups, these turn out to be relaxing, and help in brain engagement.
+9. Mood Tracker
+    - Based on the answers given from the user, the interface evaluates the user's mood, and returns it to them.
+    - P.S. Since we felt that answers to these questions could be personal, we have ensured answers are stored on the user's loacal storage, and not on our end.
+10. Courses
+    - View prospective courses provided by us, for Mental Health, again based on age groupism, and different circumstances.
+11. Resources
+    - Contains a collection of relaxing Podcasts, Spotify Playlists and Books.
+    - Embedded the Spotify API.
+12. Blogs and Journals Section
+    - Contains a set of Blogs and Journals to enhance the user's experience, and make them prioritise themselves first.
+13. Therapists and Psychiatrists 
+    - Gives option to user to book an appointment with reknowned therapists and psychiatrists.
+14. Login/Signup Page
+    - This is a common page for Signup/Login that is based on data collection that changes the interface for the User, post Login.
 
 ### Additional Features
 1. NavBar
@@ -44,14 +57,14 @@ Mindy. is a non-profit movement empowering the awareness for mental health among
     - A logo showing a brain and its beautiful tangles, showing how complex it is, yet so simple. We found it to be best to represent our logo, and thus picked the image to be our frontline symbol, and developed the logo using "Canva"
 4. Tab Symbol for Icon
     - In the <head> section of the HTML File, we have represented the icon, i.e, just the image part of the logo in the tab.
-5. SAWO Labs Integration
-    - Integration of SAWO Labs was something where we struggled at initially, but this proved out very helpful, as all the authentication, including OTPs are navigated through this interface.
-    
- ## Host Links and Other Resources
-    - YouTube Video - https://www.youtube.com/watch?v=qadNBfZ66j4    
-    - HerokuApp hosted Site - https://ancient-citadel-56891.herokuapp.com/    [Runtime Terror.docx](https://github.com/AnirudhJS07/Mindy/files/7007018/Runtime.Terror.docx)
+5. Privacy
+    - Since we felt that answers to these questions could be personal, we have ensured answers are stored on the user's loacal storage, and not on our end.
+6. Age Grouping
+    - Age Grouping has been done to distinguish between (0-18 Yrs), (19-40 Yrs), (41-65 Yrs) and (65+ Yrs). 
+    - This has been done as we are cognizant of the fact that people from different age groups, have different problems, and different circumstances.
 
-    - DevFolio Project Link - https://devfolio.co/submissions/mindy-a-mental-health-platform-fb26
+ ## Host Links and Other Resources
+    - YouTube Video - 
  
  ## Team Members
   - Abhinav Aggrawal
