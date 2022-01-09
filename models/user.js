@@ -5,7 +5,7 @@ var UserSchema = new mongoose.Schema({
     username:String,
     password:String,
     moodtracker:Object, // {notes, emogi, thoughts}
-    games:Object, // {}
+    games:Object, // { chess:{}, arrange: LastScore, quiz: LastScore,  }
     age: Number,
     gender: String
 });

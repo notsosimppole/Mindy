@@ -404,6 +404,7 @@ const initWelcomePage = () => {
         const data = {
             name : nameInput.value,
             age: ageInput.value ,
+            gender: radioWrapper.value
             
         }
 
@@ -418,11 +419,11 @@ const initWelcomePage = () => {
 };
 
 const cleanLocalStorage = () => {
-    let nullables = ["userName", "userAge", "userGender", "words", "quotes"];
-    nullables.forEach(propertyName => {
-        localStorage.setItem(propertyName, "");  
-    });
-    localStorage.setItem("diary-entries", "[]"); 
+    // let nullables = ["userName", "userAge", "userGender", "words", "quotes"];
+    // nullables.forEach(propertyName => {
+    //     localStorage.setItem(propertyName, "");  
+    // });
+    // localStorage.setItem("diary-entries", "[]"); 
 };
 
 const testEntry = () => {
