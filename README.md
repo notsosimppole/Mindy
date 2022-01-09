@@ -65,6 +65,7 @@ Mindy. is a non-profit movement empowering the awareness for mental health among
 
  ## Host Links and Other Resources
     - Drive Video - https://drive.google.com/drive/folders/1ICczQR7-fv7V-Ldh5wbyS1tDubCW7QMf?usp=sharing
+    - DevFolio Project Link - https://devfolio.co/submissions/mindy-edb9
  
  ## Team Members
   - Abhinav Aggrawal
