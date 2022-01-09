@@ -153,6 +153,10 @@ app.get("/readadults", function(req, res){
     res.render("adultsreadmore.ejs");
 });
 
+app.get("/readold", function(req, res){
+    res.render("oldreadmore.ejs");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
 
