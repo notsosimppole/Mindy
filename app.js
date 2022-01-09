@@ -145,9 +145,9 @@ app.get("/therapyold", function(req, res){
     res.render("therapists/therapyold.ejs");
 });
 
-app.get("/meditation", function(req, res){
-    res.render("meditation.ejs");
-});
+// app.get("/meditation", function(req, res){
+//     res.render("meditation.ejs");
+// });
 
 app.get("/readadults", function(req, res){
     res.render("adultsreadmore.ejs");
@@ -156,11 +156,16 @@ app.get("/readkids", function(req, res){
     res.render("kidsreadmore.ejs");
 });
 
+app.get("/readold", function(req, res){
+    res.render("oldreadmore.ejs");
+});    
+
+app.get("/meditation", function(req, res){
+    res.render("meditation/index");
+});
+
 /// Auth Routes
 app.use('/api/users', require('./routes/users'));
-
-
-
 
 
 app.listen(3000, function(){
