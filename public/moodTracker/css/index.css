@@ -14,7 +14,7 @@ body {
 }
 
 .body {
-    background-color: #a5d1e7;
+    background-color: #1b99dd;
 
     display: grid;
     grid-template-columns: 1fr 20fr 1fr;
@@ -62,7 +62,7 @@ body {
 
 .action-button {
     width: 10.5vw;
-    background-color: #a5d1e7;
+    background-color: #1b99dd;
     text-align: center;
     border-radius: 15px;
     transition: 0.2s linear 0s;

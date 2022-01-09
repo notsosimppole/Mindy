@@ -20,7 +20,7 @@ const updateTasks = (taskHolder, task) => {
 let lastOrder = 0;
 
 const renderTasks = (taskHolder) => {
-    const backgroundColors = ["#e97e40","#a5d1e7", "#f4dd65", "#86c753", "#6fa0b2", "#e6bfb9"];
+    const backgroundColors = ["#e97e40","#1b99dd", "#f4dd65", "#86c753", "#6fa0b2", "#e6bfb9"];
     taskHolder.innerHTML = "";
     getTasks().forEach((taskData, i) => {
         const task = appendElem(taskHolder, "div", ['task-block']);
@@ -221,11 +221,8 @@ const initAbout = () => {
         "This is why we created Mental Health - a lightweight and efficient mood \
          tracker, advisor and general motivation keeper for you to get through the \
          pandemic.",
-        "",
-        "Contributors:",
-        "Ania Tselikova",
-        "Arlyn Miles",
-        "Egor Tarasov"
+        ""
+        
     ]
 
     appendElem(content, "p", ['slight-header'], 

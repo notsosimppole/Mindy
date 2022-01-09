@@ -24,7 +24,7 @@
 
     border-radius: 50%;
     overflow: hidden;
-    background-color: #a5d1e7;
+    background-color: #1b99dd;
 }
 
 .profile__username {
@@ -44,7 +44,7 @@
     transition: 0.2s linear 0s;
     overflow: hidden;
     padding: 5%;
-    background-color: #a5d1e7;
+    background-color: #1b99dd;
 }
 
 .profile__add-mood:hover {
