@@ -149,8 +149,8 @@ app.get("/therapyold", function(req, res){
 //     res.render("meditation.ejs");
 // });
 
-app.get("/readkids", function(req, res){
-    res.render("kidsreadmore.ejs");
+app.get("/readadults", function(req, res){
+    res.render("adultsreadmore.ejs");
 });
 
 
