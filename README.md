@@ -64,7 +64,7 @@ Mindy. is a non-profit movement empowering the awareness for mental health among
     - This has been done as we are cognizant of the fact that people from different age groups, have different problems, and different circumstances.
 
  ## Host Links and Other Resources
-    - YouTube Video - 
+    - Drive Video - https://drive.google.com/drive/folders/1ICczQR7-fv7V-Ldh5wbyS1tDubCW7QMf?usp=sharing
  
  ## Team Members
   - Abhinav Aggrawal
